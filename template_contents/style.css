@@ -3,7 +3,7 @@
     justify-content: center;
 }
 
-.large_container {
+/* .container-fluid {
     width: 100%;
     height: auto;
     border: 1px solid red;
@@ -11,6 +11,11 @@
     display: flex;
     align-items: center;
     justify-content: center;
+} */
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .l_container {
@@ -54,3 +59,4 @@ img {
     text-align: center;
     padding: 5px;
 }
+
