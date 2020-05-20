@@ -1,0 +1,56 @@
+.body {
+    align-items: center;
+    justify-content: center;
+}
+
+.large_container {
+    width: 100%;
+    height: auto;
+    border: 1px solid red;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.l_container {
+    width: 350px;
+    height: auto;
+    border: 1px solid black;
+    object-fit: contain;
+    padding: 5px;
+}
+
+.l_container > img {
+    width: 320px;
+}
+
+img {
+   width: 250px;
+}
+
+.r_container {
+    height: 300px;
+    width: 400px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.detailed_container {
+    width: 100%;
+    height: auto;
+    border: 1px solid red;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    width: 30%;
+    border: 1px solid purple;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+}
