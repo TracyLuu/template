@@ -4,25 +4,17 @@
 }
 
 .container-fluid {
-    border: 1px solid olivedrab;
     display: grid;
     justify-content: center;
 }
 
 .flex {
     display: block;
+    padding: 20px;
 }
 
-.l_container {
-    width: 350px;
-    height: auto;
-    border: 1px solid black;
-    padding: 5px;
-}
-
-.l_container > img {
-    width: 320px;
-    object-fit: contain;
+.box {
+    background: #383838
 }
 
 img {
@@ -31,17 +23,9 @@ img {
    margin: 0 auto 20px;
 }
 
-.r_container {
-    height: 300px;
-    width: 400px;
-    border: 1px solid black;
-    padding: 5px;
-}
-
 .detailed_container {
     width: 100%;
     height: auto;
-    border: 1px solid red;
     flex-wrap: wrap;
     display: flex;
     align-items: center;
@@ -50,7 +34,6 @@ img {
 }
 
 .card {
-    border: 1px solid purple;
     align-items: center;
     justify-content: center;
     text-align: center;
@@ -83,13 +66,23 @@ h3 {
 
 .description > p {
     width: 400px;
+    color: #b3b3b3;
 }
 
 h1 {
     text-align: center;
     width: 400px;
+    color: white;
 }
 
 .card > p {
     width: 250px;
+}
+
+.button_element {
+    display: none;
+}
+
+span :hover {
+    z-index: 1;
 }

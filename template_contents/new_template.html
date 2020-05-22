@@ -19,7 +19,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid box">
         <div class="row flex">
             <div class="col-sm-6 col-md-5 col-lg-6 align">
                 <img src="images/ss-wall-mount-category.jpg" alt="stainless steel wall mount">
@@ -38,13 +38,17 @@
 
     <div class="container-fluid detailed_container">
         <div class="card col-xs-12 col-sm-6 col-md-4">
+            <a id="demo" href="https://www.solutionsdirectonline.com/304-stainless-steel-wall-mount-enclosures">
             <img src="images/ss-wall-mount-category.jpg" alt="stainless steel wall mount">
             <h3>Title of H3 tag</h3>
+            <span class="button_element"><button>Shop</button></span>
+            </a>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
             </p>
+
         </div>
         <div class="card col-xs-12 col-sm-6 col-md-4">
             <img src="images/ss-wall-mount-category.jpg" alt="stainless steel wall mount">
@@ -92,6 +96,25 @@
             </p>
         </div>
     </div>
+
+    <!-- Thing to work on this weekend (5/22 - 5/26):
+    1. Research better looks for hover effects
+    2. Remake each listing into grid system -->
+
+    <script>
+        document.getElementById("demo").onmouseover = function() {mouseOver()};
+        document.getElementById("demo").onmouseout = function() {mouseOut()};
+        
+        function mouseOver() {
+            let element = document.getElementsByTagName("span")[0];
+            element.classList.remove("button_element");
+        }
+        
+        function mouseOut() {
+            let element = document.getElementsByTagName("span")[0];
+            element.classList.add("button_element");
+        }
+    </script>
 </body>
 </html>
 
