@@ -86,3 +86,15 @@ h1 {
 span :hover {
     z-index: 1;
 }
+
+.on {
+    opacity: 50%;
+    transition:opacity 0.8s
+    }
+    
+    .on:hover {
+    opacity:100%;
+    transition:opacity 1s
+    }
+
+
