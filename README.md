@@ -1,4 +1,4 @@
-# template
+# Landing Page
 
 - Install chocolatey
 
