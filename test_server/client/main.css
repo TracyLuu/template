@@ -62,12 +62,18 @@
   background-color: #b92a26;
   color: #f2f1ed;
   position: absolute;
-  top: 0;
+  top: 40%;
   left: 0;
   right: 0;
   margin: 0 auto;
   width: 100px;
   padding: 10px;
+}
+
+button {
+  padding: 10px;
+  background-color: #b92a26;
+  color: white;
 }
 
 .title {
@@ -78,23 +84,12 @@
 
 .description_t {
   font-size: 24px;
-  padding: 5px;
   color: #383838;
   font-family: 'roboto', Helvetica, sans-serif;
 }
 
 .button_element {
   display: none
-}
-
-.button_on {
-  margin: 50px 0;
-}
-
-.testing {
-  width: 200px;
-  height: 50px;
-  background-color: #b92a26;
 }
 
 .margin_bottom {
@@ -104,6 +99,14 @@
 .fa-bars {
   font-size: 32px;
 } 
+
+.img_responsive {
+  max-width: 50px;
+}
+
+.color_gray {
+  color: #383838;
+}
 
 @media (min-width: 768px) {   
   .fa-bars {
@@ -115,4 +118,8 @@
   .banish {
   display: none
   } 
+}
+
+.banish {
+  float: right;
 }
