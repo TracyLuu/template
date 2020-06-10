@@ -1,3 +1,5 @@
+Creating templates so that I can use in AmeriCommerce.
+
 # Landing Page
 
 - Install Chocolatey
