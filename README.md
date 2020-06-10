@@ -1,6 +1,8 @@
-Creating templates so that I can use in AmeriCommerce.
-
 # Landing Page
+
+### Creating templates so that I can use in AmeriCommerce.
+
+### Steps
 
 - Install Chocolatey
 
@@ -14,6 +16,7 @@ Creating templates so that I can use in AmeriCommerce.
 
 Meteor server running on: http://localhost:3000/
 
+### Misc
 
 First Mockup Approved 6/1/20
 
