@@ -1,1 +1,2 @@
-# Uploaded onto AmeriCommerce and are now rearranging elements using grid system
+# Updated 061220
+Uploaded onto AmeriCommerce and are now rearranging elements using grid system
