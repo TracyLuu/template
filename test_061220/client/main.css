@@ -1,0 +1,193 @@
+#background {
+  background-image: url("https://www.alliedmoulded.com/wp-content/uploads/Plant3-Web-Header.jpg");
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 64%, 0 100%);
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-bottom: 550px;
+}
+
+#background:after {
+  background-color: #383838;
+  opacity: 0.8;
+  display: block;
+  content: "";
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(0 0, 100% 0, 100% 64%, 0 100%);
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#top_portion {
+  position: relative;
+  padding: 90px 20px 0px;
+  color: white;
+}
+
+#top_portion img {
+  padding-top: 30px;
+  max-width: 350px;
+  width: 100%;
+  margin: 0 30px 0 auto;
+}
+
+#top_portion p {
+  color: white;
+}
+
+#top_portion button {
+  margin-right: 5px;
+}
+
+.icon {
+  width: 150px;
+}
+
+.icon_set img {
+  max-width: 50px;
+}
+
+#top_portion .allied_logo {
+  width: 200px;
+}
+
+.div1 h1:after {
+  display: block;
+  content: "";
+  height: 4px;
+  width: 80px;
+  margin: 10px 0px 0px;
+  background-color: #b92a26;
+}
+
+.card {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 0 15px;
+  display: grid;
+  position: relative;
+}
+
+.card img {
+  max-width: 150px;
+  width: 100%;
+  margin: auto;
+}
+
+.card p {
+  font-size: 14px;
+  padding: 5px;
+  letter-spacing: 1px;
+  color: #6d6d6d;
+  font-family: 'noto sans', Helvetica, sans-serif;
+}
+
+.red_buttons {
+  padding: 15px;
+  color: white;
+  background-color: #b93835;
+  margin: 2px;
+}
+
+.red_buttons:hover {
+  box-shadow: 0px 0px 5px 0px #555555;
+  color: white;
+}
+
+.title {
+  text-align: center;
+  width: 400px;
+  color: white;
+}
+
+.description_t {
+  font-size: 24px;
+  color: #383838;
+  font-family: 'roboto', Helvetica, sans-serif;
+}
+
+.margin_bottom {
+  margin-bottom: 1px solid black;
+}
+
+.fa-bars {
+  font-size: 32px;
+} 
+
+.img_responsive {
+  max-width: 50px;
+}
+
+.color_gray {
+  color: #383838;
+}
+
+.buttons img:hover {
+opacity: 80%;
+}
+
+.header_grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.rearrange {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  }
+  
+
+@media (max-width: 769px) {   
+  #top_portion img {
+    margin: auto;
+    max-width: 350px;
+  }
+  .header_grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 350px 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div2 { grid-area: 1 / 1 / 2 / 2; }
+    .div1 { grid-area: 2 / 1 / 3 / 2; }
+
+    .div4 { grid-area: 1 / 1 / 2 / 2; }
+    .div3 { grid-area: 2 / 1 / 3 / 2; }
+
+  #background {
+    clip-path: unset;
+  }
+
+  #background:after {
+    clip-path: unset;
+  }
+
+  * {
+    text-align: center;
+  }
+}
+
+@media (max-width: 390px) { 
+  .header_grid {
+    grid-template-rows: 270px 1fr;
+  }
+}
+
+@media (min-width: 770px) {
+  .div3 { grid-area: 1 / 1 / 2 / 2; }
+  .div4 { grid-area: 1 / 2 / 2 / 3; } 
+}
