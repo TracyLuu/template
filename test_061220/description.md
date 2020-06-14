@@ -1,4 +1,4 @@
-# Pending Thoughts 061320
+# 061420
 
 Need to find solution to angled hero image
   - Select the div element and use getComputedStyle to alter the style
