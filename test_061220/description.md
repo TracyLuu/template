@@ -1,5 +1,4 @@
-# Updated 061220
-Uploaded onto AmeriCommerce and are now rearranging elements using grid system
+# Pending Thoughts 061320
 
 Need to find solution to angled hero image
   - select the div element and use getComputedStyle to alter the style
