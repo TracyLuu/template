@@ -1,22 +1,5 @@
-# Landing Page
+# Allied Moulded Enclosures
 
-### Creating templates so that I can use in AmeriCommerce.
+### This repo is so I can track the transformation of the site and refer back to
 
-### Steps
-
-- Install Chocolatey
-
-- choco install meteor
-
-- meteor create myapp
-
-- cd myapp
-
-- meteor npm install
-
-Meteor server running on: http://localhost:3000/
-
-### Mockup Approved 6/1/20
-
-![](./test_server/public/mockup-060120.jpg)
-
+This is where I can track changes and revert back on a design or have some sort of reference to where it came from
