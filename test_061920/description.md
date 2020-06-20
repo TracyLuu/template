@@ -1,4 +1,4 @@
 
 ### Creating Mockup
 
-![](SDO_assets/mockup-061920.jpg)
+![](SDO_assets/Mockup_061920.jpg)
