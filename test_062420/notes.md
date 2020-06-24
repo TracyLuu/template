@@ -2,7 +2,9 @@
 -Research different types of carousels.
 -Trevor's codepen example: https://codepen.io/dark_Matter/pen/wvwdYgX
 
-`var slideIndex = 1;
+
+//W3Schools Example of Slideshow Carousel
+var slideIndex = 1;
 showSlides(slideIndex);
 
 function plusSlides(n) {
@@ -31,4 +33,4 @@ function showSlides(n) {
     }
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].classList.add("slideractive");
-}`
+}
