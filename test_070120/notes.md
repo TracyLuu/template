@@ -1,5 +1,5 @@
 ### Notes:
--Saving this before I implement the grid system on the second and third product descriptions... *fingers crossed it goes well!*
+Saving this before I implement the grid system on the second and third product descriptions... *fingers crossed it goes well!*
 
 # Idea:
 - 5 Sections
