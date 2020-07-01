@@ -5,9 +5,9 @@
 - 5 Sections
   1. Image behind all 4 elements
   2. Description of first group of products
-  3. Array of first group of images
-  4. Description of second group of products
-  5. Array of second group of images
+  3. Array of first group of GUI icons
+  4. Description of second group of product
+  5. Carousel of second group of GUI icons
 
 ### Before
 ![](public/grid_at_md_lg_screens.PNG)
