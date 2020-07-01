@@ -2,7 +2,10 @@
 Saving this before I implement the grid system on the second and third product descriptions... *fingers crossed it goes well!*
 
 # Idea:
-- 5 Sections
+- Have overlapping layers to remove the gap between 1 against 2&3
+  ![](public/awk_gap.PNG)
+  
+- 5 Sections:
   1. Image behind all 4 elements
   2. Description of first group of products
   3. Array of first group of GUI icons
