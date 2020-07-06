@@ -1,5 +1,5 @@
 ### Notes:
-Saving this before I implement the grid system on the second and third product descriptions... *fingers crossed it goes well!*
+In this set I implement the grid system on the second and third product descriptions... It created more issues which I will fix on later versions... *fingers crossed it goes well!*
 
 # Idea:
 - Have overlapping layers to remove the gap between 1 against 2&3
