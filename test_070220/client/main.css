@@ -123,17 +123,20 @@
 .red_buttons_small {
   font-size: 13px;
   color: white;
-  background-color: #b93835;
+  background-color: #b92a26;
   margin: 15px auto 30px;
   padding: 5px 30px;
   border-radius: 25px;
   display: block;
   width: 100px;
+  box-shadow: inset 1px 1px 1px 1px rgba(255, 255, 255, 0.3);
 }
 
 .red_buttons_small:hover {
   box-shadow: 0px 0px 5px 0px #555555;
   color: white;
+  background-color: #b93835;
+  box-shadow: inset 1px 1px 1px 1px rgba(255, 255, 255, 0.3);
 }
 
 .button_box {
@@ -227,11 +230,6 @@
   font-size: 24px;
 }
 
-.color_red {
-  background-color: #b93835;
-  width: 50px;
-}
-
 .first_set {
   border-right: 4px solid #b92a26;
   line-height: .7;
@@ -244,7 +242,26 @@
   font-size: 24px;
 }
 
+.carousel-indicators li {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  margin: 10px;
+  text-indent: 0;
+  cursor: pointer;
+  border: none;
+  border-radius: 50%;
+  background-color: #dadada;
+  box-shadow: inset 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
 
+.carousel-indicators .active {
+  width: 15px;
+  height: 15px;
+  margin: 10px;
+  background-color: #b92a26;
+  box-shadow: inset 1px 1px 1px 1px rgba(255, 255, 255, 0.3);
+}
 
 @media (min-width: 992px) {
 
