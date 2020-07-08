@@ -2,7 +2,7 @@
 
 ### Creating templates so that I can use in AmeriCommerce.
 
-### Steps
+### Steps:
 
 - Install Chocolatey
 
