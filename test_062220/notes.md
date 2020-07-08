@@ -5,6 +5,6 @@
 - Main categories (3):
   1. 1-4 items
   2. 1-4 items
-  3. 5 items <
+  3. 5+ items (carousel)
   
 ### Goal: Build a layout that is looks appealing and funtional to account for all items
