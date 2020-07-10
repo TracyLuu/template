@@ -27,7 +27,7 @@
 
 #top_portion {
   position: relative;
-  padding: 90px 20px 0px;
+  padding: 30px 20px 0px;
   color: white;
 }
 
@@ -36,20 +36,10 @@
   margin-top: 30px;
 }
 
-.icon {
-  width: 150px;
-}
-
-.little_dudes {
-  color: white;
-}
-
 .header_grid {
   position: relative;
   display: grid;
-  grid-template-columns: repeat(60%, 1fr);
-  /* Not sure if I changed the above correctly. Below is the old */
-  /* grid-template-columns: repeat(2, 1fr); */
+  grid-template-columns: 60% 40%;
   grid-template-rows: 1fr;
   column-gap: 60px;
   row-gap: 0px;
@@ -58,7 +48,12 @@
   z-index: 2;
 }
 
-.header_grid .icon_set img {
+svg {
+  fill: white;
+  width: 150px;
+}
+
+.header_grid .icon_set svg {
   margin: 10px 20px 10px 0;
   max-width: 55px;
 }
@@ -273,6 +268,7 @@
   line-height: .7;
   font-weight: 900;
   padding-left: 10px;
+  font-size: 36px;
 }
 
 .parent_container span {
@@ -285,6 +281,7 @@
   line-height: .7;
   font-weight: 900;
   padding-right: 10px;
+  font-size: 36px;
 }
 
 .first_set span {
