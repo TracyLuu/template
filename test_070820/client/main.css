@@ -48,14 +48,11 @@
   z-index: 2;
 }
 
-svg {
-  fill: white;
-  width: 150px;
-}
-
 .header_grid .icon_set svg {
   margin: 10px 20px 10px 0;
   max-width: 55px;
+  fill: white;
+  width: 150px;
 }
 
 .shortcut {
@@ -284,7 +281,7 @@ svg {
   font-size: 36px;
 }
 
-.first_set span {
+h2 .block {
   margin-top: 8px;
   font-size: 24px;
 }
@@ -386,7 +383,7 @@ svg {
     margin: 0 auto;
   }
 
-  .header_grid .icon_set img {
+  .header_grid .icon_set svg {
     margin: 0 10px;
   }
 
@@ -509,7 +506,7 @@ svg {
     max-width: 200px;
   }
 
-  .header_grid .icon_set img {
+  .header_grid .icon_set svg {
     margin: 0 auto;
   }
 
@@ -540,5 +537,9 @@ svg {
 
   .div1 {
     padding-top: 25px;
+  }
+
+  h2 .block {
+    font-size: 20px;
   }
 }
