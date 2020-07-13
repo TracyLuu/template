@@ -252,11 +252,19 @@
   font-size: 24px;
 }
 
-.h2_tag {
+.h2_right {
   border-right: 4px solid #b92a26;
-  line-height: .7;
-  font-weight: 900;
   padding-right: 10px;
+}
+
+.h2_left {
+  border-left: 4px solid #b92a26;
+  padding-left: 10px;
+}
+
+.h2_tag {
+  line-height: .75;
+  font-weight: 900;
   font-size: 53px;
 }
 
