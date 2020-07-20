@@ -1,7 +1,8 @@
 #Reminder of how to use nth-child
 
 ###Example:
-<style>
+
+{<style>
 .container-fluid >.row:first-child .hello{
   background-color: yellow;
 }
@@ -21,4 +22,4 @@
      No
     </div>
   </div>
-</div>
+</div>}
