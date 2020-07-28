@@ -10,27 +10,10 @@
   color: #ffffff;
 }
 
-.list-inline>li>a::before {
-  content: "";
-  position: absolute;
-  width: 80%;
-  height: 1px;
-  bottom: -3px;
-  left: 10%;
-  background-color: white;
-  visibility: hidden;
-  transform: scaleX(0);
-  transition: all 0.3s ease-in-out 0s;
-}
-
-.list-inline>li>a:hover::before {
-  visibility: visible;
-  transform: scaleX(1);
-}
-
 .list-inline>li>a {
   color: #ffffff;
   background-color: #b92a26;
+  border: 2px solid #a00f0a;
   border-radius: 25px;
   padding: 2px 5px;
   font-size: 11px;
@@ -51,6 +34,7 @@ html {
   color: #ffffff;
   background-color: #b92a26;
   border-radius: 25px;
+  box-shadow: 0 8px 8px -6px rgba(0, 0, 0, .7);
 }
 
 .icon_set svg {
