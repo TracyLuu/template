@@ -13,7 +13,7 @@
 .list-inline>li>a {
   color: #ffffff;
   background-color: #b92a26;
-  border: 2px solid #a00f0a;
+  border: 2px solid #af1b16;
   border-radius: 25px;
   padding: 2px 5px;
   font-size: 11px;
@@ -73,6 +73,7 @@ html {
 
 .div2 {
   grid-area: 1 / 2 / 2 / 3;
+  margin-top: 20px;
 }
 
 .header_grid .div1 h1 {
@@ -373,6 +374,18 @@ h6 {
 
 @media (max-width: 991px) {
 
+  .icon_set {
+    margin: auto;
+    padding-top: 15px;
+    background-color: #dddddd;
+    width: 100%;
+  }
+
+  .icon_set svg {
+    fill: #383838;
+    margin: 0 30px;
+  }
+
   ul {
     list-style: none;
     padding: 0;
@@ -543,6 +556,18 @@ h6 {
 
 @media (max-width: 767px) {
 
+  .icon_set {
+    margin: auto;
+    padding-top: 10px;
+    background-color: #dddddd;
+    width: 100%;
+  }
+
+  .icon_set svg {
+    fill: #383838;
+    margin: 0 15px;
+  }
+
   #mfg_page>.row .strip_container {
     display: block
   }
@@ -570,12 +595,16 @@ h6 {
 
 @media (max-width: 470px) {
 
+  .h_paragraph {
+    padding: 10px 15px;
+  }
+
   .div2 img {
     margin: auto;
     max-width: 150px;
   }
 
-  .header_grid .icon_set svg {
+  .icon_set svg {
     margin: 0 auto;
   }
 
