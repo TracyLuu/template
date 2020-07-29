@@ -21,6 +21,15 @@
   text-decoration: none;
 }
 
+.list-inline>li>a:hover {
+  color: #ffffff;
+  background-color: #b92a26;
+  border-radius: 25px;
+  box-shadow: 0 8px 8px -6px rgba(0, 0, 0, .7);
+  transition-timing-function: ease-in;
+  transition: 0.3s;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -30,17 +39,10 @@ html {
   padding: 10px 0;
 }
 
-.list-inline>li>a:hover {
-  color: #ffffff;
-  background-color: #b92a26;
-  border-radius: 25px;
-  box-shadow: 0 8px 8px -6px rgba(0, 0, 0, .7);
-}
-
 .icon_set svg {
   margin: 10px 20px 10px 0;
   max-width: 55px;
-  fill: #ffffff;
+  fill: #6d6d6d;
   width: 150px;
 }
 
@@ -73,7 +75,6 @@ html {
 
 .div2 {
   grid-area: 1 / 2 / 2 / 3;
-  margin-top: 20px;
 }
 
 .header_grid .div1 h1 {
@@ -167,11 +168,6 @@ html {
 
 .mw_1280 {
   max-width: 1280px;
-}
-
-.mw_400 {
-  max-width: 400px;
-  margin: 0 0 0 auto;
 }
 
 .margin_bottom {
@@ -272,7 +268,7 @@ h2 .block {
 }
 
 .color_red {
-  bottom: 0px;
+  bottom: -10px;
 }
 
 h6 {
@@ -344,15 +340,14 @@ h6 {
     grid-template-rows: 1fr;
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-    margin: 0 auto;
+    margin: 100px auto 0;
     border-top: 1px solid #dedede;
     padding-top: 100px;
   }
 
   #mfg_page>.row:nth-child(2) .strip_container {
-    border-top: none;
-    margin-top: 100px;
-    padding: 0;
+    border: none;
+    margin-top: 0;
   }
 
   .strip_container.left_to_right>.strip_content {
@@ -373,18 +368,6 @@ h6 {
 }
 
 @media (max-width: 991px) {
-
-  .icon_set {
-    margin: auto;
-    padding-top: 15px;
-    background-color: #dddddd;
-    width: 100%;
-  }
-
-  .icon_set svg {
-    fill: #383838;
-    margin: 0 30px;
-  }
 
   ul {
     list-style: none;
@@ -474,6 +457,7 @@ h6 {
 
   .list-inline>li {
     color: #ffffff;
+    margin-bottom: 15px;
   }
 
   .shortcut {
@@ -556,18 +540,6 @@ h6 {
 
 @media (max-width: 767px) {
 
-  .icon_set {
-    margin: auto;
-    padding-top: 10px;
-    background-color: #dddddd;
-    width: 100%;
-  }
-
-  .icon_set svg {
-    fill: #383838;
-    margin: 0 15px;
-  }
-
   #mfg_page>.row .strip_container {
     display: block
   }
@@ -601,7 +573,7 @@ h6 {
 
   .div2 img {
     margin: auto;
-    max-width: 150px;
+    max-width: 200px;
   }
 
   .icon_set svg {
@@ -614,11 +586,19 @@ h6 {
 
   .header_grid {
     padding: 0px;
-    grid-template-rows: 220px 1fr;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2, auto);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
   }
 
   .header_grid .div1 h1 {
     font-size: 28px;
+  }
+
+  .header_grid .div2 {
+    padding-top: 50px;
+    height: 350px;
   }
 
   .h2_tag {
