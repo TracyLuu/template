@@ -39,11 +39,58 @@ html {
   padding: 10px 0;
 }
 
+.icon_set {
+  margin: 30px 0;
+}
+
 .icon_set svg {
-  margin: 0 auto;
-  max-width: 55px;
+  margin: 10px 0 0;
+  max-width: 40px;
   fill: #6d6d6d;
-  width: 150px;
+  width: 100%;
+}
+
+.icons {
+  position: relative;
+  display: inline-block;
+}
+
+.icons .span_style {
+  opacity: 0;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: -40px;
+  transition: all 0.3s ease-in-out;
+  transform: translate(0, 10px);
+}
+
+.icons .pointer {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  border-bottom: 5px solid black;
+  margin: 0 auto 0;
+  transition: all 0.3s ease-in-out;
+  transform: translate(0, 10px);
+}
+
+.icons:hover .pointer {
+  opacity: 1;
+}
+
+.icons:hover .span_style {
+  opacity: 1;
 }
 
 .shortcut {
@@ -266,12 +313,7 @@ h2 .block {
 }
 
 h6 {
-  margin-top: 30px;
-}
-
-h6 {
-  border-top: 1px solid #dedede;
-  padding-top: 30px;
+  margin-top: 40px;
 }
 
 .features>li {
@@ -344,7 +386,7 @@ h6 {
 
   #mfg_page>.row:nth-child(2) .strip_container {
     border: none;
-    margin-top: 0;
+    margin-top: 100px;
   }
 
   .strip_container.left_to_right>.strip_content {
