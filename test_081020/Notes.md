@@ -1,3 +1,3 @@
-### Finished Landing Page For Allied Moulded
+# Finished Landing Page For Allied Moulded
 
-# Anything after this will be for others
+### Anything after this will be for others
