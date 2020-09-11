@@ -378,13 +378,13 @@ h6 {
 }
 
 .nav-tabs>li.active>a {
-  background-color: #b92a26;
+  background-color: #b92a26 !important;
   color: #fff;
 }
 
 .tabby {
-  color: #383838;
-  background-color: #dedede;
+  color: #fff !important;
+  background-color: #6d6d6d;
 }
 
 .nav-tabs>li>a:hover {
@@ -395,6 +395,15 @@ h6 {
 .nav>li>a {
   padding: 10px 20px;
   font-weight: 800;
+}
+
+#\34 {
+  border-right: 1px solid #dedede;
+  padding: 0 75px 0 0;
+}
+
+#\35:first-child {
+  padding: 0 0 0 50px;
 }
 
 
