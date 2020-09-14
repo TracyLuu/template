@@ -1,5 +1,5 @@
 # Finished Landing Page For Allied Moulded
 
-### Anything after this will be for others
+### Launched 8/21/2020
 
 https://www.solutionsdirectonline.com/shop-allied-moulded-electrical-enclosures
