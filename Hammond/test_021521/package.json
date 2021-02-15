@@ -1,0 +1,29 @@
+{
+  "name": "vendors",
+  "version": "1.0.0",
+  "description": "Repo for vendor pages",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solutionsdirect/vendors.git"
+  },
+  "author": "Trevor Gonzales",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/solutionsdirect/vendors/issues"
+  },
+  "homepage": "https://github.com/solutionsdirect/vendors#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-uglify": "^3.0.2",
+    "live-server": "^1.2.1"
+  }
+}
